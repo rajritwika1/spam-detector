@@ -1,32 +1,32 @@
-Spam Detector API
+# Spam Detector API
 
-Project Overview
+## Project Overview
 This is a Spam Detection API built using Golang (Gin Framework) and PostgreSQL. It provides:
 - User Authentication (JWT)
 - Spam Number Detection
 - API Logging and Error Handling
 
-1. Tech Stack
+## 1. Tech Stack
 - Backend: Golang (Gin Framework)
 - Database: PostgreSQL
 - Auth: JWT-based authentication
 - Environment Variables: `.env`
 
-2. Setup Instructions
+## 2. Setup Instructions
 
- Prerequisites
+## Prerequisites
 - Install Go (1.23.2)
 - Install PostgreSQL(17)
 - Install Golang dependencies: `go mod tidy`
 
-Environment Variables
+## Environment Variables
 Create a `.env` file:
 
-3. Run Database Migrations
+## 3. Run Database Migrations
 
 go run main.go
 
-4. Testing API with Postman
+## 4. Testing API with Postman
 
 - Login API
 
@@ -64,10 +64,15 @@ json
   "Authorization": "Bearer your_generated_jwt_token"
 }
 
-Notes
+## Notes
 
 - Ensure PostgreSQL is running before starting the server.
 
 - Error logs are written using Logrus.
 
 - Run Postman tests to verify API functionality.
+## Author
+
+Ritwika Raj  
+Btech Final Year| software Developer | Golang Enthusiast  
+Email:rajritwika1812gmzil.com  
